@@ -14,9 +14,6 @@ class DlgMain(QDialog):
         self.setWindowTitle("My GUI") # add widgets, set properties
         self.resize(200,200)
         
-        self.ledText = QLineEdit("My GUI", self)
-        self.ledText.move(50,50)
-        
 if __name__ == "__main__":
     app = QApplication(sys.argv) # create application
     dlgMain = DlgMain() # create main GUI canvas
